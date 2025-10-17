@@ -39,6 +39,8 @@ const reviews = [
       powerConsumption: "20-60W",
       warranty: "2 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop",
   },
   {
     id: 2,
@@ -69,6 +71,8 @@ const reviews = [
       powerConsumption: "33W",
       warranty: "2 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&sat=-50",
   },
   {
     id: 3,
@@ -99,6 +103,8 @@ const reviews = [
       powerConsumption: "64W",
       warranty: "5 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&sat=-30",
+    topImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop&sat=-30",
   },
   {
     id: 4,
@@ -129,6 +135,8 @@ const reviews = [
       powerConsumption: "30-61W",
       warranty: "2 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=180",
+    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&hue=180",
   },
   {
     id: 5,
@@ -159,6 +167,8 @@ const reviews = [
       powerConsumption: "120W",
       warranty: "5 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop&hue=200",
+    topImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=200",
   },
   {
     id: 6,
@@ -180,7 +190,7 @@ const reviews = [
       "Covers large spaces up to 2,086 sq ft",
     ],
     cons: ["High initial cost", "Expensive filter replacements", "Larger unit size"],
-    fullReview: `The AIRDOCTOR AD5500i is a high-performance air purifier for extra-large spaces, covering up to 2,086 square feet. Its UltraHEPA filter captures 100% of particles as small as 0.003 microns, far surpassing standard HEPA filters, while dual-action carbon VOC filters tackle odors and gases. The smart app provides real-time air quality data and remote control, and the auto mode adjusts filtration based on the built-in particle sensor. With six fan speeds and Whisper Jet fans that are 30% quieter than competitors, it’s versatile for homes, gyms, or offices. Though the initial cost and filter replacements are pricey, its advanced filtration and large coverage make it a top choice for those needing robust air purification.`,
+    fullReview: `The AIRDOCTOR AD5500i is a high-performance air purifier for extra-large spaces, covering up to 2,086 square feet. Its UltraHEPA filter captures 100% of particles as small as 0.003 microns, far surpassing standard HEPA filters, while dual-action carbon VOC filters tackle odors and gases. The smart app provides real-time air quality data and remote control, and the auto mode adjusts filtration based on the built-in particle sensor. With six fan speeds and Whisper Jet fans that are 30% quieter than competitors, it's versatile for homes, gyms, or offices. Though the initial cost and filter replacements are pricey, its advanced filtration and large coverage make it a top choice for those needing robust air purification.`,
     specs: {
       dimensions: '28.75" H x 16" W x 16" D',
       weight: "33 lbs",
@@ -189,6 +199,8 @@ const reviews = [
       powerConsumption: "110W",
       warranty: "1 year",
     },
+    sideImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&brightness=10",
+    topImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop&brightness=10",
   },
   {
     id: 7,
@@ -215,7 +227,7 @@ const reviews = [
       "No CADR rating available",
       "Larger footprint",
     ],
-    fullReview: `The Molekule Air Pro redefines air purification with its innovative PECO-HEPA Tri-Power filter, which destroys pollutants like viruses, bacteria, and mold at the molecular level, rather than just trapping them. FDA-cleared for medical use, it’s ideal for high-traffic areas up to 1,000 square feet. The particle sensor detects pollutants down to 0.3 microns, and the app provides real-time air quality data and control. Its sleek aluminum design adds a modern aesthetic, but the high price and costly filter replacements may deter some. Despite the lack of a CADR rating, its unique technology and effectiveness in destroying pollutants make it a premium choice for health-conscious users or professional settings.`,
+    fullReview: `The Molekule Air Pro redefines air purification with its innovative PECO-HEPA Tri-Power filter, which destroys pollutants like viruses, bacteria, and mold at the molecular level, rather than just trapping them. FDA-cleared for medical use, it's ideal for high-traffic areas up to 1,000 square feet. The particle sensor detects pollutants down to 0.3 microns, and the app provides real-time air quality data and control. Its sleek aluminum design adds a modern aesthetic, but the high price and costly filter replacements may deter some. Despite the lack of a CADR rating, its unique technology and effectiveness in destroying pollutants make it a premium choice for health-conscious users or professional settings.`,
     specs: {
       dimensions: '23" H x 14.25" W x 14.25" D',
       weight: "23 lbs",
@@ -224,6 +236,8 @@ const reviews = [
       powerConsumption: "55W",
       warranty: "2 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&contrast=20",
+    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&contrast=20",
   },
   {
     id: 8,
@@ -254,6 +268,8 @@ const reviews = [
       powerConsumption: "61W",
       warranty: "5 years",
     },
+    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=180",
+    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&hue=180",
   },
   {
     id: 9,
@@ -284,6 +300,8 @@ const reviews = [
       powerConsumption: "105W",
       warranty: "Lifetime",
     },
+    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=300",
+    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&hue=300",
   },
 ]
 
@@ -307,12 +325,33 @@ export default function ReviewDetailPage({ params }: { params: { slug: string } 
 
         {/* Header Section */}
         <div className="grid md:grid-cols-2 gap-12 mb-16">
-          {/* Image */}
-          <div className="relative aspect-square rounded-2xl overflow-hidden bg-white shadow-xl">
-            <img src={review.image || "/placeholder.svg"} alt={review.name} className="w-full h-full object-cover" />
-            <Badge className="absolute top-6 right-6 bg-cyan-500 text-white border-0 text-lg px-4 py-2">
-              {review.category}
-            </Badge>
+          {/* Images Gallery */}
+          <div className="space-y-4">
+            {/* Main Image */}
+            <div className="relative aspect-square rounded-2xl overflow-hidden bg-white shadow-xl">
+              <img src={review.image || "/placeholder.svg"} alt={review.name} className="w-full h-full object-cover" />
+              <Badge className="absolute top-6 right-6 bg-cyan-500 text-white border-0 text-lg px-4 py-2">
+                {review.category}
+              </Badge>
+            </div>
+
+            {/* Additional Images */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="relative aspect-square rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-xl transition-shadow">
+                <img
+                  src={review.sideImage || "/placeholder.svg"}
+                  alt={`${review.name} side view`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="relative aspect-square rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-xl transition-shadow">
+                <img
+                  src={review.topImage || "/placeholder.svg"}
+                  alt={`${review.name} top view`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
           </div>
 
           {/* Info */}
@@ -337,7 +376,7 @@ export default function ReviewDetailPage({ params }: { params: { slug: string } 
 
             {/* Price */}
             <div className="mb-6">
-              
+              <p className="font-inter text-lg text-gray-600 leading-relaxed mb-8">Price: {review.price}</p>
             </div>
 
             {/* Quick Specs */}

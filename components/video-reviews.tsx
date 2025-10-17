@@ -3,23 +3,19 @@
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
 import { useRef } from "react"
-import { Play } from "lucide-react"
 
 const videos = [
   {
     title: "Levoit Core 300 - Full Review",
     thumbnail: "/levoit-core-300-review-video-thumbnail.jpg",
-    duration: "12:34",
   },
   {
     title: "Top 5 Purifiers of 2025 Comparison",
     thumbnail: "/air-purifiers-comparison-video.jpg",
-    duration: "18:45",
   },
   {
     title: "How to Properly Install a Purifier",
     thumbnail: "/air-purifier-installation-guide.jpg",
-    duration: "8:20",
   },
 ]
 
@@ -57,21 +53,6 @@ export default function VideoReviews() {
                     alt={video.title}
                     className="w-full h-full object-cover"
                   />
-
-                  {/* Play button overlay */}
-                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-colors flex items-center justify-center">
-                    <motion.div
-                      whileHover={{ scale: 1.1 }}
-                      className="w-16 h-16 rounded-full bg-primary/90 flex items-center justify-center glow"
-                    >
-                      <Play className="w-8 h-8 text-white ml-1" fill="white" />
-                    </motion.div>
-                  </div>
-
-                  {/* Duration badge */}
-                  <div className="absolute bottom-4 right-4 px-2 py-1 rounded bg-black/70 text-white text-sm backdrop-blur-sm">
-                    {video.duration}
-                  </div>
                 </div>
 
                 <div className="p-4">

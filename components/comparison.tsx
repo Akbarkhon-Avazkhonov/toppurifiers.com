@@ -45,7 +45,6 @@ const products = [
 ]
 
 const features = [
-  { key: "price", label: "Price" },
   { key: "coverage", label: "Coverage" },
   { key: "noise", label: "Noise" },
   { key: "hepa", label: "HEPA Filter" },

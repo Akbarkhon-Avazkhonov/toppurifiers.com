@@ -14,7 +14,7 @@ export default function Contact() {
 
   const contactMethods = [
     { icon: Mail, label: "Email", value: "info@toppurifiers.com" },
-    { icon: Phone, label: "Phone", value: "+1 (800) 123-4567" },
+    { icon: Phone, label: "Phone", value: "+1 605-335-7267" },
     { icon: MessageCircle, label: "Telegram", value: "@toppurifiers" },
   ]
 

@@ -62,7 +62,7 @@ const reviews = [
       "Energy Star certified for efficiency",
     ],
     cons: ["Limited coverage for larger spaces", "Basic cylindrical design", "App connectivity can occasionally lag"],
-    fullReview: `The Levoit Core 400S is a standout in the budget-friendly smart air purifier category, offering excellent performance for rooms up to 403 square feet. Its H13 True HEPA filter captures 99.97% of particles as small as 0.3 microns, while the activated carbon layer tackles odors and VOCs. The VeSync app provides remote control, scheduling, and air quality monitoring, with compatibility for Alexa and Google Assistant. At just 24 dB in sleep mode, it’s perfect for bedrooms, and the ability to turn off the display ensures undisturbed rest. Energy efficiency is a highlight, with low power consumption and Energy Star certification. While its coverage is limited compared to larger units, and the design is simple, the Core 400S delivers reliable purification and smart features at an unbeatable price, making it ideal for small to medium spaces.`,
+    fullReview: `The Levoit Core 400S is a standout in the budget-friendly smart air purifier category, offering excellent performance for rooms up to 403 square feet. Its H13 True HEPA filter captures 99.97% of particles as small as 0.3 microns, while the activated carbon layer tackles odors and VOCs. The VeSync app provides remote control, scheduling, and air quality monitoring, with compatibility for Alexa and Google Assistant. At just 24 dB in sleep mode, it's perfect for bedrooms, and the ability to turn off the display ensures undisturbed rest. Energy efficiency is a highlight, with low power consumption and Energy Star certification. While its coverage is limited compared to larger units, and the design is simple, the Core 400S delivers reliable purification and smart features at an unbeatable price, making it ideal for small to medium spaces.`,
     specs: {
       dimensions: '20.5" H x 10.8" W x 10.8" D',
       weight: "11 lbs",
@@ -72,7 +72,7 @@ const reviews = [
       warranty: "2 years",
     },
     sideImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop",
-    topImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&sat=-50",
+    topImage: "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&h=800&fit=crop",
   },
   {
     id: 3,
@@ -94,7 +94,7 @@ const reviews = [
       "5-year warranty",
     ],
     cons: ["Larger footprint takes up space", "Higher initial cost", "Dual filter replacements can be expensive"],
-    fullReview: `The Coway Airmega 400 is a powerhouse air purifier designed for large spaces, covering up to 1,560 square feet with a CADR of 340 CFM. Its dual Max2 filter system combines pre-filters, deodorization filters, and True HEPA filters to capture 99.97% of particles, including allergens, smoke, and odors. The smart auto mode adjusts fan speed based on real-time air quality, indicated by a color-changing LED ring, while Eco mode shuts off the fan when air is clean, saving energy. At 22 dB on low settings, it’s quiet enough for continuous use, and the modern design blends seamlessly into homes. The 5-year warranty ensures long-term reliability, though the dual-filter system means higher replacement costs. For open-concept homes or large rooms, the Airmega 400 offers unmatched performance and durability.`,
+    fullReview: `The Coway Airmega 400 is a powerhouse air purifier designed for large spaces, covering up to 1,560 square feet with a CADR of 340 CFM. Its dual Max2 filter system combines pre-filters, deodorization filters, and True HEPA filters to capture 99.97% of particles, including allergens, smoke, and odors. The smart auto mode adjusts fan speed based on real-time air quality, indicated by a color-changing LED ring, while Eco mode shuts off the fan when air is clean, saving energy. At 22 dB on low settings, it's quiet enough for continuous use, and the modern design blends seamlessly into homes. The 5-year warranty ensures long-term reliability, though the dual-filter system means higher replacement costs. For open-concept homes or large rooms, the Airmega 400 offers unmatched performance and durability.`,
     specs: {
       dimensions: '22.8" H x 14.8" W x 14.8" D',
       weight: "24.7 lbs",
@@ -103,8 +103,8 @@ const reviews = [
       powerConsumption: "64W",
       warranty: "5 years",
     },
-    sideImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&sat=-30",
-    topImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop&sat=-30",
+    sideImage: "https://images.unsplash.com/photo-1593642532473-47ba0277781c?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=800&fit=crop",
   },
   {
     id: 4,
@@ -135,8 +135,8 @@ const reviews = [
       powerConsumption: "30-61W",
       warranty: "2 years",
     },
-    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=180",
-    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&hue=180",
+    sideImage: "https://images.unsplash.com/photo-1603380353725-f8a4d39cc41e?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1621570074981-c4b7e8016e7e?w=800&h=800&fit=crop",
   },
   {
     id: 5,
@@ -167,8 +167,8 @@ const reviews = [
       powerConsumption: "120W",
       warranty: "5 years",
     },
-    sideImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop&hue=200",
-    topImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=200",
+    sideImage: "https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?w=800&h=800&fit=crop",
   },
   {
     id: 6,
@@ -199,8 +199,8 @@ const reviews = [
       powerConsumption: "110W",
       warranty: "1 year",
     },
-    sideImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&brightness=10",
-    topImage: "https://images.unsplash.com/photo-1626806819282-2c1dc01a5e0c?w=800&h=800&fit=crop&brightness=10",
+    sideImage: "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1604754742629-3e5728249d73?w=800&h=800&fit=crop",
   },
   {
     id: 7,
@@ -236,8 +236,8 @@ const reviews = [
       powerConsumption: "55W",
       warranty: "2 years",
     },
-    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&contrast=20",
-    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&contrast=20",
+    sideImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=800&fit=crop",
   },
   {
     id: 8,
@@ -268,8 +268,8 @@ const reviews = [
       powerConsumption: "61W",
       warranty: "5 years",
     },
-    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=180",
-    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&hue=180",
+    sideImage: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=800&fit=crop",
   },
   {
     id: 9,
@@ -300,8 +300,8 @@ const reviews = [
       powerConsumption: "105W",
       warranty: "Lifetime",
     },
-    sideImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=800&fit=crop&hue=300",
-    topImage: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&h=800&fit=crop&hue=300",
+    sideImage: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=800&fit=crop",
+    topImage: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=800&fit=crop",
   },
 ]
 
@@ -337,20 +337,8 @@ export default function ReviewDetailPage({ params }: { params: { slug: string } 
 
             {/* Additional Images */}
             <div className="grid grid-cols-2 gap-4">
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  src={review.sideImage || "/placeholder.svg"}
-                  alt={`${review.name} side view`}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="relative aspect-square rounded-xl overflow-hidden bg-white shadow-lg hover:shadow-xl transition-shadow">
-                <img
-                  src={review.topImage || "/placeholder.svg"}
-                  alt={`${review.name} top view`}
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              
+              
             </div>
           </div>
 
@@ -375,9 +363,7 @@ export default function ReviewDetailPage({ params }: { params: { slug: string } 
             </div>
 
             {/* Price */}
-            <div className="mb-6">
-              <p className="font-inter text-lg text-gray-600 leading-relaxed mb-8">Price: {review.price}</p>
-            </div>
+            
 
             {/* Quick Specs */}
             <div className="grid grid-cols-2 gap-4 mb-8">

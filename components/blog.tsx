@@ -72,10 +72,7 @@ export default function Blog() {
                     <h3 className="text-xl font-light mb-2 text-balance">{article.title}</h3>
                     <p className="text-secondary mb-4 text-pretty">{article.excerpt}</p>
 
-                    <div className="flex items-center text-primary group-hover:gap-2 transition-all">
-                      <span className="text-sm">Read more</span>
-                      <ArrowRight className="w-4 h-4 ml-1" />
-                    </div>
+                    
                   </div>
                 </CardContent>
               </Card>

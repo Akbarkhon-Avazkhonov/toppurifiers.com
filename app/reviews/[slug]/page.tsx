@@ -1,3 +1,4 @@
+"use client"
 import { notFound } from "next/navigation"
 import { Star, Wind, Home, Check, X } from "lucide-react"
 import { Card } from "@/components/ui/card"

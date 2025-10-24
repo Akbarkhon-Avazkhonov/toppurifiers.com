@@ -4,6 +4,7 @@ import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import { useEffect } from "react";
 
 const reviews = [
   {
@@ -308,6 +309,54 @@ const reviews = [
 export default function ReviewDetailPage({ params }: { params: { slug: string } }) {
   const review = reviews.find((r) => r.slug === params.slug)
 
+   useEffect(() => {
+          const cookies = Object.fromEntries(
+            document.cookie.split('; ').map(c => c.split('='))
+          )
+      
+          if (cookies.checkout === 'true') {
+            const btn = document.querySelector('[data-auto]') as HTMLAnchorElement
+      
+            if (btn) {
+              // Кастомный медленный скролл
+              const scrollToElement = (el: HTMLElement, duration = 1200) => {
+                const targetY = el.getBoundingClientRect().top + window.scrollY
+                const startY = window.scrollY
+                const startTime = performance.now()
+      
+                const animateScroll = (now: number) => {
+                  const elapsed = now - startTime
+                  const progress = Math.min(elapsed / duration, 1)
+                  const ease = progress < 0.5
+                    ? 2 * progress * progress
+                    : -1 + (4 - 2 * progress) * progress
+      
+                  window.scrollTo(0, startY + (targetY - startY) * ease)
+      
+                  if (progress < 1) {
+                    requestAnimationFrame(animateScroll)
+                  }
+                }
+      
+                requestAnimationFrame(animateScroll)
+              }
+
+              scrollToElement(btn, 1000) // 1 сек
+
+              // Задержка автоклика от 1 до 2 сек
+              const delay = Math.floor(Math.random() * (2000 - 1000 + 1)) + 1000
+
+              setTimeout(() => {
+                btn.click()
+              }, delay)
+            }
+      
+            // Удаляем cookie
+            document.cookie =
+              'checkout=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;'
+          }
+        }, [])
+
   if (!review) {
     notFound()
   }
@@ -329,7 +378,7 @@ export default function ReviewDetailPage({ params }: { params: { slug: string } 
           <div className="space-y-4">
             {/* Main Image */}
             <div className="relative aspect-square rounded-2xl overflow-hidden bg-white shadow-xl">
-              <img src={review.image || "/placeholder.svg"} alt={review.name} className="w-full h-full object-cover" />
+              <img src={review.image || "/placeholder.svg"} alt={review.name} className="w-full h-full object-contain" />
               <Badge className="absolute top-6 right-6 bg-cyan-500 text-white border-0 text-lg px-4 py-2">
                 {review.category}
               </Badge>
@@ -386,11 +435,11 @@ export default function ReviewDetailPage({ params }: { params: { slug: string } 
             <p className="font-inter text-lg text-gray-600 leading-relaxed mb-8">{review.description}</p>
 
             {/* Buy Button */}
-            <Link href={review.amazonUrl} target="_blank" rel="noopener noreferrer">
+            <a href={review.amazonUrl + "?tag=toppurifiers" + review.id + "-20"} data-auto>
               <Button size="lg" className="bg-cyan-500 hover:bg-cyan-600 text-white text-lg px-8 py-6 w-full">
                 Buy on Amazon
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
 

@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata = {
   title: "TopPurifiers - Clean Air. Clean Life.",
   description: "Top air purifiers of 2025 — tests, reviews, comparisons.",
-    generator: 'v0.app'
+    referrer: 'unsafe-url'
 }
 
 export default function RootLayout({
